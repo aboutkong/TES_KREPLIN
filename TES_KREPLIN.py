@@ -25,6 +25,6 @@ for _ in range(50):
    print(line)
    pdf.cell(0, 6, txt=line, ln=True)
 
-pdf.output("tes_kreplin3.pdf")
+pdf.output("tes_kreplin.pdf")
 
-print("\nOutput berhasil ke 'tes_kreplin3.pdf'")
+print("\nOutput berhasil ke 'tes_kreplin.pdf'")
